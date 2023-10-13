@@ -7,7 +7,6 @@ body {
 /* --- Утіліти --- */
 .container {
   max-width: 1158px;
-  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,13 +76,8 @@ h3 {
 
 /* --- HEADER --- */
 .page-header {
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.page-header .container,
-.navigation {
-  display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -100,8 +94,14 @@ h3 {
   color: #2e2f42;
 }
 
-.header-padding {
-  padding: 24px 0;
+.menu-nav {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.navigation {
+  display: flex;
 }
 
 .navigation-list {
@@ -122,7 +122,7 @@ h3 {
   color: #404bbf;
 }
 
-.contacts {
+.menu-contacts {
   display: flex;
   margin-left: auto;
   font-style: normal;
