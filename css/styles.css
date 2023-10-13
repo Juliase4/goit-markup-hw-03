@@ -101,6 +101,7 @@ h3 {
 
 .navigation {
   display: flex;
+  align-items: center;
   padding: 24px 0;
 }
 
@@ -129,10 +130,7 @@ h3 {
 .contacts-list {
   display: flex;
   font-style: normal;
-}
-
-.contacts-item:first-child {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .contacts-link {
