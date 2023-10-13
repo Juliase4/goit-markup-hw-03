@@ -90,6 +90,10 @@ h3 {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+}
+
 .bit-logo {
   color: #2e2f42;
 }
@@ -109,16 +113,12 @@ h3 {
   gap: 40px;
 }
 
-.navigation-item,
-.contacts-item {
-  padding: 24px 0;
-}
-
 .navigation-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 
   color: #2e2f42;
 }
@@ -141,6 +141,7 @@ h3 {
 .contacts-link {
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .contacts-link:hover,
