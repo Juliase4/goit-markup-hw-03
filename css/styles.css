@@ -86,7 +86,6 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   color: #4d5ae5;
 }
 
@@ -106,6 +105,7 @@ h3 {
 
 .navigation-list {
   display: flex;
+  margin-left: 76px;
   gap: 40px;
 }
 
