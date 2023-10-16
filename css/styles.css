@@ -105,7 +105,7 @@ h3 {
 
 .navigation-list {
   display: flex;
-  margin-left: 76px;
+  /* margin-left: 76px; */
   gap: 40px;
 }
 
