@@ -86,11 +86,16 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
   color: #4d5ae5;
 }
 
 .bit-logo {
   color: #2e2f42;
+}
+
+.footer-logo {
+  margin-right: 0;
 }
 
 .menu-nav {
@@ -105,7 +110,6 @@ h3 {
 
 .navigation-list {
   display: flex;
-  /* margin-left: 76px; */
   gap: 40px;
 }
 
